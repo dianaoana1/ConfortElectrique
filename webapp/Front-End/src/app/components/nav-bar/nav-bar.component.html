@@ -1,0 +1,19 @@
+<p>
+    <mat-toolbar>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon [matMenuTriggerFor]="menu">menu</mat-icon>
+            <mat-menu #menu="matMenu">
+                <a class="menu-item-link" routerLink="/homepage" routerLinkActive="active" ariaCurrentWhenActive="page"><button mat-menu-item class="menu-item">Home</button></a>
+                <a class="menu-item-link" routerLink="/contactpage" routerLinkActive="active" ariaCurrentWhenActive="page"><button mat-menu-item class="menu-item">Contact Us</button></a>
+              </mat-menu>
+        </button>
+        <span class="page-title" routerLink="/homepage" routerLinkActive="active" ariaCurrentWhenActive="page" >Confort Electrique</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon>share</mat-icon>
+        </button>
+    </mat-toolbar>
+</p>

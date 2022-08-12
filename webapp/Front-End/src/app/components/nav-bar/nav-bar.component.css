@@ -1,0 +1,20 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.menu-item {
+    border: 0px solid;
+    
+}
+
+.menu-item-link:link { text-decoration: none; }
+
+.menu-item-link:visited { text-decoration: none; }
+
+.menu-item-link:hover { text-decoration: none; }
+
+.menu-item-link:active { text-decoration: none; }
+
+.page-title{
+    cursor: pointer;
+}
